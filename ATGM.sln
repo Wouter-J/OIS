@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATGM", "ATGM\ATGM.csproj", "{6DACD4A9-30E9-4E7C-9931-E361F76712BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATGM_Core", "ATGM_Core\ATGM_Core.csproj", "{3EAC410C-7816-4FE8-8456-EF4D3BCB1F05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATGM_ApplicationServices", "ATGM_ApplicationServices\ATGM_ApplicationServices.csproj", "{622A68F7-9365-4A20-A7DB-94C46E7DF6EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATGM_DomainServices", "ATGM_DomainServices\ATGM_DomainServices.csproj", "{A0BA8C7A-DCE5-4869-A7EE-10470903EFAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATGM_Infrastructure", "ATGM_Infrastructure\ATGM_Infrastructure.csproj", "{F0ED07EF-1A08-46A6-AEA3-10C3A3055E92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATGM_Extensions", "ATGM_Extensions\ATGM_Extensions.csproj", "{DA3189B4-63DE-4640-8FAB-000ED900E5CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATGM_Tests", "ATGM_Tests\ATGM_Tests.csproj", "{AA3DAD17-1D11-48B1-B18D-626FCB27E968}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DACD4A9-30E9-4E7C-9931-E361F76712BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DACD4A9-30E9-4E7C-9931-E361F76712BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DACD4A9-30E9-4E7C-9931-E361F76712BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DACD4A9-30E9-4E7C-9931-E361F76712BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EAC410C-7816-4FE8-8456-EF4D3BCB1F05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EAC410C-7816-4FE8-8456-EF4D3BCB1F05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EAC410C-7816-4FE8-8456-EF4D3BCB1F05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EAC410C-7816-4FE8-8456-EF4D3BCB1F05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{622A68F7-9365-4A20-A7DB-94C46E7DF6EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{622A68F7-9365-4A20-A7DB-94C46E7DF6EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{622A68F7-9365-4A20-A7DB-94C46E7DF6EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{622A68F7-9365-4A20-A7DB-94C46E7DF6EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0BA8C7A-DCE5-4869-A7EE-10470903EFAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0BA8C7A-DCE5-4869-A7EE-10470903EFAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0BA8C7A-DCE5-4869-A7EE-10470903EFAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0BA8C7A-DCE5-4869-A7EE-10470903EFAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0ED07EF-1A08-46A6-AEA3-10C3A3055E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0ED07EF-1A08-46A6-AEA3-10C3A3055E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0ED07EF-1A08-46A6-AEA3-10C3A3055E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0ED07EF-1A08-46A6-AEA3-10C3A3055E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3189B4-63DE-4640-8FAB-000ED900E5CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3189B4-63DE-4640-8FAB-000ED900E5CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3189B4-63DE-4640-8FAB-000ED900E5CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3189B4-63DE-4640-8FAB-000ED900E5CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA3DAD17-1D11-48B1-B18D-626FCB27E968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA3DAD17-1D11-48B1-B18D-626FCB27E968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA3DAD17-1D11-48B1-B18D-626FCB27E968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA3DAD17-1D11-48B1-B18D-626FCB27E968}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {632CA6E9-B847-498B-8E2B-4C0EE09D8170}
+	EndGlobalSection
+EndGlobal
