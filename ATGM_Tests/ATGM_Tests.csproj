@@ -19,4 +19,13 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ATGM\ATGM.csproj" />
+    <ProjectReference Include="..\ATGM_ApplicationServices\ATGM_ApplicationServices.csproj" />
+    <ProjectReference Include="..\ATGM_Core\ATGM_Core.csproj" />
+    <ProjectReference Include="..\ATGM_DomainServices\ATGM_DomainServices.csproj" />
+    <ProjectReference Include="..\ATGM_Extensions\ATGM_Extensions.csproj" />
+    <ProjectReference Include="..\ATGM_Infrastructure\ATGM_Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
